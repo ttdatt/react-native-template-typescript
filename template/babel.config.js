@@ -9,7 +9,6 @@ module.exports = {
         alias: {
           navigation: './src/navigation',
           screens: './src/screens',
-          models: './src/models',
           api: './src/api',
         },
       },

@@ -18,7 +18,7 @@ export const MainTabNavigator = () => {
       <Tab.Screen
         name={ScreenNames.UserScreen}
         component={UserScreen}
-        options={{ title: 'User', headerTitle: 'My Account', tabBarTestID: 'pay-tab-button' }}
+        options={{ title: 'User', headerTitle: 'My Account', tabBarTestID: 'user-tab-button' }}
       />
     </Tab.Navigator>
   );
