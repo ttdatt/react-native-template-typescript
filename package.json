@@ -1,8 +1,8 @@
 {
-  "name": "react-native-template-typescript-msw",
+  "name": "react-native-template-typescript",
   "version": "0.0.1",
   "description": "React Native Template",
-  "repository": "git@github.com:ttdatt/react-native-template-typescript-msw.git",
+  "repository": "git@github.com:ttdatt/react-native-template-typescript.git",
   "author": "Dat Tran <ttdat89@gmail.com>",
   "license": "MIT"
 }
