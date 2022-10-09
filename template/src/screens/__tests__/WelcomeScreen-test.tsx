@@ -15,7 +15,7 @@ describe('WelcomeScreen', () => {
 
   test('mock api is called and able to navigate to tab', async () => {
     const { getByText } = render(<WelcomeScreen />);
-    await waitFor(() => expect(getByText('Hello world')).toBeTruthy());
+    await waitFor(() => expect(getByText('Hello world !!!')).toBeTruthy());
     const button = getByText('Go to Tab');
     fireEvent.press(button);
     expect(mockedNavigate).toHaveBeenCalledWith(ScreenNames.MainTab);
