@@ -21,5 +21,5 @@ type NavigationScreenProps = CompositeScreenProps<
 type NavigationProp = NavigationScreenProps['navigation'];
 export const useAppNavigation = () => useNavigation<NavigationProp>();
 export const useAppRoute = <
-  ScreenName extends keyof MainStackParamList | keyof MainTabParamList,
+  ScreenName extends ScreenNames,
 >() => useRoute<RouteProp<MainStackParamList & MainTabParamList, ScreenName>>();
