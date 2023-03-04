@@ -1,5 +1,5 @@
 import { createNavigationContainerRef } from '@react-navigation/native';
-import { MainStackParamList } from 'navigation/types';
+import { MainStackParamList } from '@navigation/types';
 
 export const navigationRef = createNavigationContainerRef<MainStackParamList>();
 export const navigate = (

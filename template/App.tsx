@@ -1,5 +1,5 @@
 import React from 'react';
-import MainStackNavigator from 'navigation/MainStackNavigator';
+import MainStackNavigator from '@navigation/MainStackNavigator';
 
 const App = () => {
   return <MainStackNavigator />;

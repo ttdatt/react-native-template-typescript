@@ -1,1 +1,0 @@
-# ttdatt-react-native-template

@@ -5,7 +5,7 @@ import RNBootSplash from 'react-native-bootsplash';
 import { MainStackParamList } from './types';
 import { navigationRef } from './utils';
 import { ScreenNames } from './screenNames';
-import { WelcomeScreen } from 'screens';
+import { WelcomeScreen } from '@screens';
 import { MainTabNavigator } from './MainTabNavigator';
 
 const NavStack = createStackNavigator<MainStackParamList>();

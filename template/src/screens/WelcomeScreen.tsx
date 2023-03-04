@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { ScreenNames } from 'navigation/screenNames';
-import { useAppNavigation } from 'navigation/types';
+import { ScreenNames } from '@navigation/screenNames';
+import { useAppNavigation } from '@navigation/types';
 import { Button, Text, View } from 'react-native';
-import { getHelloWorld } from 'api';
+import { getHelloWorld } from '@api';
 
 export const WelcomeScreen = () => {
   const navigation = useAppNavigation();

@@ -7,9 +7,10 @@ module.exports = {
         root: ['./src'],
         extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
         alias: {
-          navigation: './src/navigation',
-          screens: './src/screens',
-          api: './src/api',
+          '@src': './src',
+          '@navigation': './src/navigation',
+          '@screens': './src/screens',
+          '@api': './src/api',
         },
       },
     ],
